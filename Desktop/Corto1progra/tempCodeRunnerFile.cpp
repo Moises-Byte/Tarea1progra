@@ -8,7 +8,7 @@ int main(){
     int min=1, max=27;
     int usuario;
     int variable=min+rand() % (max-min+1);
-    cout <<"Ingresa un numero de tu gusto";cin>>usuario;
+    cout <<"Ingresa un número de tu gusto";cin>>usuario;
     cout <<endl;
     while(true){
         if (usuario==variable)
