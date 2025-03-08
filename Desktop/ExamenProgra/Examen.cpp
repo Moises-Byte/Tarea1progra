@@ -4,7 +4,7 @@
 using namespace std; 
 
 int main(){
-    int  a = 0, b = 0;
+    int  a = 0, b = 0, l=0;
 
     for (int i = 0; i <= 50; i += 2) {
         a += i;
@@ -15,4 +15,15 @@ int main(){
         b += o;
     }
     cout << "La suma de los numeros impares hasta 50 es: " << b << endl;
+    cout << endl;
+    while (l <=33 ) {
+        cout << l << " ";
+        l += 3;
+    }
+    cout << endl;
+
+
 }
+
+
+
